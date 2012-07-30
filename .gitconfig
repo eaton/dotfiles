@@ -1,0 +1,14 @@
+[user]
+	name = Jeff Eaton
+	email = eaton@lullabot.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = auto
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  st = status -s
+	smu = submodule update --init --recursive
+[github]
+	user = eaton
