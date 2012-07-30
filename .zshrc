@@ -3,7 +3,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
-export ZSH_THEME="walkah"
+export ZSH_THEME="apple"
 
 # My custom directory
 export ZSH_CUSTOM=$HOME/.zsh/custom
@@ -26,3 +26,5 @@ source $ZSH/oh-my-zsh.sh
 
 export LSCOLORS="ExGxFxdxCxDxDxhbadExEx"
 
+alias ls='ls -aoF' 
+alias bb=bbedit
