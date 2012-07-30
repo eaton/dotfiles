@@ -12,3 +12,5 @@
 	smu = submodule update --init --recursive
 [github]
 	user = eaton
+[core]
+	quotepath = false
