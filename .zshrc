@@ -1,12 +1,15 @@
+# Basic environmental variables
+export PATH=$PATH:/usr/local/sbin::/usr/local/bin
+
 # Path to your oh-my-zsh configuration.
 export ZSH=$HOME/.oh-my-zsh
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
-export ZSH_THEME="apple"
+export ZSH_THEME="sunrise"
 
 # My custom directory
-export ZSH_CUSTOM=$HOME/.zsh/custom
+# export ZSH_CUSTOM=$HOME/.zsh/custom
 
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
@@ -26,5 +29,12 @@ source $ZSH/oh-my-zsh.sh
 
 export LSCOLORS="ExGxFxdxCxDxDxhbadExEx"
 
-alias ls='ls -aoF' 
-alias bb=bbedit
+# MY aliases
+alias ls='gls -lahoA --color=auto' 
+alias bb='bbedit'
+alias bf='bbfind'
+alias bd='bbdiff'
+alias mo='open -a Mou' 
+
+# Because seriously
+unsetopt correct_all

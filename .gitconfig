@@ -7,10 +7,18 @@
 	branch = auto
 	ui = auto
 [alias]
+    today = log --all --author="`git config --get user.name`" --after=yesterday --oneline --reverse
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-  st = status -s
+    st = status -s
 	smu = submodule update --init --recursive
 [github]
 	user = eaton
 [core]
 	quotepath = false
+	excludesfile = /Users/jeff/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
