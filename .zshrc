@@ -35,10 +35,13 @@ export LSCOLORS="ExGxFxdxCxDxDxhbadExEx"
 
 # MY aliases
 alias ls='gls -lahoA --color=auto' 
+
 alias bb='bbedit'
 alias bf='bbfind'
 alias bd='bbdiff'
 alias mo='open -a Mou' 
+
+alias gi='gem install --user-install' 
 
 # Because seriously
 unsetopt correct_all
