@@ -1,5 +1,9 @@
 # Basic environmental variables
-export PATH=$PATH:/usr/local/sbin::/usr/local/bin
+export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:/usr/local/bin
+export PATH=$PATH:/Users/jeff/.gem/ruby/2.0.0/bin
+
+
 
 # Path to your oh-my-zsh configuration.
 export ZSH=$HOME/.oh-my-zsh
