@@ -26,7 +26,7 @@ export ZSH_THEME="sunrise"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(extract git github svn ruby rails3 rvm heroku pip django osx brew deb ssh-agent npm drush vagrant knife)
+plugins=(extract git github svn ruby rails rvm heroku pip django osx brew deb ssh-agent npm drush vagrant knife)
 
 # OH MY ZSH!
 source $ZSH/oh-my-zsh.sh
