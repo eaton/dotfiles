@@ -1,6 +1,6 @@
 [user]
 	name = Jeff Eaton
-	email = eaton@lullabot.com
+	email = eaton@nerdhaus.net
 [color]
 	diff = auto
 	status = auto
@@ -16,12 +16,6 @@
 [core]
 	quotepath = false
 	excludesfile = /Users/jeff/.gitignore_global
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
 [difftool "Kaleidoscope"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [diff]
