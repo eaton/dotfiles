@@ -101,7 +101,7 @@ fi
 export LSCOLORS="ExGxFxdxCxDxDxhbadExEx"
 
 # MY aliases
-alias ls='ls -lahoAG' 
+alias ls='ls -lahoAG --color=auto' 
 
 alias ia='open -a iA\ Writer.app' 
 
