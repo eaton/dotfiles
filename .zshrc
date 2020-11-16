@@ -101,7 +101,9 @@ fi
 export LSCOLORS="ExGxFxdxCxDxDxhbadExEx"
 
 # MY aliases
-alias ls='ls -lahoAG --color=auto' 
+alias ls='ls -lahoAGF'
+
+alias bytes='stat -f "%z %N"'
 
 alias ia='open -a iA\ Writer.app' 
 
