@@ -2,7 +2,10 @@
 export PATH="$HOME/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
-export PATH="/opt/homebrew/bin:$PATH"
+export PATH="~/bin:$PATH"
+
+# Homebrew recommended bits
+eval $(/opt/homebrew/bin/brew shellenv)
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/jeff/.oh-my-zsh"
@@ -109,6 +112,8 @@ alias bytes='stat -f "%z %N"'
 alias ia='open -a iA\ Writer.app' 
 
 alias gi='gem install --user-install' 
+
+alias python='python3'
 
 # Because seriously
 unsetopt correct_all
